@@ -13,4 +13,21 @@
 - this is a command which used for moving turtle 
 ![image](https://user-images.githubusercontent.com/95737530/195255087-cef5a9d1-ce33-4c81-be8b-08a129f033b9.png)
 - We can control turtle with arrow keys
-/home/sabirov/Videos/Screencasts/Screencast from 10-12-2022 02:12:36 PM.webm
+
+[Screencast from 10-12-2022 02:12:36 PM.webm](https://user-images.githubusercontent.com/95737530/195261460-1fb2205d-f27c-47c1-839c-b945ef078106.webm)
+### Installation of RQT
+- Step 1 Always make it up to date 
+![image](https://user-images.githubusercontent.com/95737530/195263029-580599aa-08d6-4094-b109-2e5d4928e2e0.png)
+- Step 2 Install the rqt library and its plugins
+![image](https://user-images.githubusercontent.com/95737530/195263370-ab619f4d-5c22-430d-81d5-31a6f5b24b65.png)
+- Step 3 Using rqt
+![image](https://user-images.githubusercontent.com/95737530/195264887-71516f39-bb9b-4cb9-8f52-dedc30aaa59a.png)
+-To start rqt_console in a new terminal with the following command
+![image](https://user-images.githubusercontent.com/95737530/195265221-8ee66513-cb92-42e0-9958-e53433fb6fb4.png)
+# ROS 2 Calcon
+- Step 1 Installing calcon extensions
+![image](https://user-images.githubusercontent.com/95737530/195266583-6d871c25-3d74-4af4-bacc-ccbc8cec94ae.png)
+- Step 2 Creating workspace
+![image](https://user-images.githubusercontent.com/95737530/195267230-459851a6-23c9-4698-b5c9-499cbd266f4f.png)
+- Step 3
+- 
