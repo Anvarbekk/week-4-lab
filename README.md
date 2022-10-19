@@ -70,9 +70,9 @@ cd ~/ros2_ws
 git clone https://github.com/ros2/examples src/examples -b humble
 ```
 - build the workspace 
-- ```
+```
 colcon build --symlink-install
-- ```
+```
 ![image](https://user-images.githubusercontent.com/95737530/196668869-b923eaf4-efb2-458b-8327-e7d4243b25a9.png)
 - Source the environment
 ```
@@ -85,4 +85,21 @@ irectory of your shell to the directory of a package.
 echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc
 echo "export _colcon_cd_root=/opt/ros/rolling/" >> ~/.bashrc
 ```
-
+## Creating workspace
+- Step 1 Source ROS 2 environment
+```
+source /opt/ros/rolling/setup.bash
+```
+- Step 2 Create a new Directory
+ ```
+ mkdir -p ~/ros2_ws/src
+ cd ~/ros2_ws/src
+ ```
+ - Step 3 Clone the Github repo
+ ```
+ git clone https://github.com/ros/ros_tutorials.git -b rolling-devel
+ ```
+ - Step Resolve dependencies
+ ```
+ rosdep install -i --from-path src --rosdistro rolling -y
+ ```
