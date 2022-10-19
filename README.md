@@ -67,5 +67,22 @@ cd ~/ros2_ws
 ![image](https://user-images.githubusercontent.com/95737530/195267230-459851a6-23c9-4698-b5c9-499cbd266f4f.png)
 - Add some sources
 ```
-git clone https://github.com/ros2/examples src/examples -b rolling
+git clone https://github.com/ros2/examples src/examples -b humble
 ```
+- build the workspace 
+- ```
+colcon build --symlink-install
+- ```
+![image](https://user-images.githubusercontent.com/95737530/196668869-b923eaf4-efb2-458b-8327-e7d4243b25a9.png)
+- Source the environment
+```
+. install/setup.bash
+```
+- Setup
+  -The command colcon_cd allows you to quickly change the current working d
+irectory of your shell to the directory of a package.
+```
+echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc
+echo "export _colcon_cd_root=/opt/ros/rolling/" >> ~/.bashrc
+```
+
